@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.header{
+	text-align: center
+		
+}
+
+.topnavi {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+.topnavi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+.topnavi a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.mainupperarea {
+	background-color:white;
+	padding: 20px;
+	line-height:80px;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+.middlecolumn {
+  float: left;
+  width: 100%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+	text-align: center;
+	
+	
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 1200px;} 
+

@@ -1,0 +1,141 @@
+@charset "utf-8";   
+    
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #ecf0f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+nav a.active {
+    background:yellow;
+    color: black;
+}
+
+.animate__slideInLeft{
+	--animate-duration: 2s;
+}
+
+#main-menu {
+    position: fixed;z-index:6;
+    text-align: center;
+	background: #30D7D4;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	box-shadow:3px 2px 20px #000;
+}
+
+.h1{
+	font-size: 64px;
+}
+
+#section1 {
+    background-image: url("就这.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+	display: flex;
+	align-items: center;
+	font-size: 96px;
+}
+
+.h2{
+	margin-left: 50px;
+	font-size: 52px;
+}
+.p1{
+	margin-left: 50px;
+	font-family: "Microsoft JhengHei";
+	font-size: 24px;
+} 
+
+#section2 {
+    background-image: url(猫猫.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+	color:#ffffff;
+     
+}
+
+#section3 {
+    background-image: url("Portfolio.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    font-size: 20px;
+	font-family: "Microsoft JhengHei";
+	color:#ffffff;
+	
+}
+
+#section4 {
+    background-image: url("Tower.png");
+	background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+	font-size: 22px;
+	font-family: "Microsoft JhengHei";
+	color:#ffffff;
+}
+
+#section5 {
+    background-color: #7DD8D8;
+    background-size: cover;
+	
+}
+
+
+.img{
+	max-width:100px;
+	
+}
+.div-inline{ display:inline} 
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 100px;
+}   
+    
+    p{
+        width: 65%;
+		margin-left: 50px;
+    }
+    
+    h1{
+        font-weight: 400;
+        font-size: 30px;
+		margin-left: 50px;
+}
+    
+
+@media (max-width: 1366px){
+}
