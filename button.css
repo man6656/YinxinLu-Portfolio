@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+.button{
+    width: 140px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 100px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	transition: all 0.3s linear;
+	float: left
+	
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+
+}
+.button a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button2{
+    width: 140px;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-bottom: auto;
+	margin-left: 100px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	transition: all 0.3s linear;
+	float: left;
+	
+}
+.button2:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+
+}
+.button2 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button3 {
+	width: 200px;
+	margin-left: 60px;
+	margin-top: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+	
+}
+.button3:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+
+}
+.button3 a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
