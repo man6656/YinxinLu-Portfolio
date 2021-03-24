@@ -16,5 +16,5 @@ var onWindowRezise = function() {
 }
 
 function Tips(){
-	confirm('man6656@live.com');
+	confirm('luyinxin2021@163.com');
 }
