@@ -69,12 +69,12 @@ nav a.active {
 .h2{
 	margin-left: 0px;
 	margin-top: 0px;
-	font-size: 52px;
+	font-size: 50px;
 }
 .p1{
 	margin-left: 0px;
 	width: 70%;
-	font-size: 22px;
+	font-size: 20px;
 	color:#000;
 } 
 
@@ -128,8 +128,9 @@ section {
 }   
     
     p{
-        width: 60%;
+        width: 80%;
 		margin-left: 20px;
+		overflow: auto;
 		font-family: 'Poppins', sans-serif;
     }
     
